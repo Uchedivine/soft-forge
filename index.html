@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="project1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+
+    <title>INDEX</title>
+</head>
+
+<body>
+ <header class="bg-black">
+  <nav class="grid grid-cols-12 items-center p-3">
+    
+  
+    <div class="col-span-6 md:col-span-5 flex items-center">
+      <img class="w-14 h-auto" src="/images/logo.png" alt="Soft Forge Logo">
+      <p class="text-white font-roboto font-medium text-xl ml-2">SOFT FORGE</p>
+    </div>
+
+   
+    <div class="hidden md:flex md:col-span-6 justify-center space-x-6">
+      <a class="text-white font-roboto font-medium text-xl" href="index.html">Home</a>
+      <a class="text-white font-roboto font-medium text-xl" href="services.html">Services</a>
+      <a class="text-white font-roboto font-medium text-xl" href="properties.html">Portfolio</a>
+      <a class="text-white font-roboto font-medium text-xl" href="about.html">About Us</a>
+      <a class="text-white font-roboto font-medium text-xl" href="careers.html">Careers</a>
+      <a class="text-white font-roboto font-medium text-xl" href="contact.html">Contact</a>
+    </div>
+
+   
+    <div class="col-span-6 md:col-span-1 flex items-center justify-end space-x-3">
+     
+      <button class="whitespace-nowrap bg-[#ffa600]  font-semibold text-sm px-6 py-2 rounded-lg">
+        Quick Quote
+      </button>
+
+      <!-- Hamburger (only on mobile) -->
+      <button id="menu-toggle" class="md:hidden text-white text-2xl">
+        ☰
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu (hidden by default, vertical list) -->
+  <div id="mobile-menu" class="hidden flex-col space-y-4 bg-black p-4 md:hidden">
+    <a class="block text-white font-medium text-lg" href="index.html">Home</a>
+    <a class="block text-white font-medium text-lg" href="services.html">Services</a>
+    <a class="block text-white font-medium text-lg" href="properties.html">Portfolio</a>
+    <a class="block text-white font-medium text-lg" href="about.html">About Us</a>
+    <a class="block text-white font-medium text-lg" href="careers.html">Careers</a>
+    <a class="block text-white font-medium text-lg" href="contact.html">Contact</a>
+  </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
+
+
+</body>
+
+</html>
+
+
