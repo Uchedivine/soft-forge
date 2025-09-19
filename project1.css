@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+  }
+  .quote-button {
+  white-space: nowrap;       /* keeps text on one line */
+  border: none;
+  padding: 8px 60px;         /* slimmer height, longer width */
+  background-color: #ffa600;
+  color: white;
+  font-size: 14px;           /* slightly bigger text */
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;     /* ensures proper sizing */
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.background_img{
+    background-image: linear-gradient(to bottom,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9) ),  url(./images/backdrop.jpg);
+      background-size:  cover;
+  background-repeat: no-repeat;
+  background-position: center;
+   height: 80vh; /* Full screen height */
+  width: 100%; 
+}
